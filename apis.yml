@@ -1,8 +1,16 @@
 aid: carwow
 name: Carwow
-description: 'Carwow is a company surfaced as a portfolio company of accel, balderton-capital, bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Carwow is a UK-based online automotive marketplace that helps consumers
+  buy, sell, lease, and finance cars without haggling or hidden fees. Buyers browse
+  new and used car deals, compare dealer quotes, arrange leasing (including salary
+  sacrifice and fleet through Carwow Leasey), find electric-vehicle deals, and access
+  vehicle financing and credit brokering. Sellers get free car valuations, part-exchange,
+  and van sales. Carwow also publishes professional car reviews and ratings, runs a
+  large YouTube channel, and offers comparison tools, EV charging maps, a car history
+  checker, and insurance services. Founded in London and backed by Accel, Balderton
+  Capital, and Bessemer Venture Partners, Carwow operates across the UK and Europe.
+  It maintains a public GitHub organization of open-source engineering tooling but
+  does not currently publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/carwow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +20,31 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: http://assets.carwow.co.uk/logos/carwow-logo-thumb.jpg
 tags:
 - Company
 - Consumer
+- Automotive
+- Marketplace
+- Car Buying
+- Car Selling
+- Leasing
+- Electric Vehicles
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +52,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carwow-domain-security.yml
 - type: Website
   url: http://www.carwow.co.uk
+- type: Blog
+  url: https://www.carwow.co.uk/editorial
+- type: GitHubOrganization
+  url: https://github.com/carwow
+- type: About
+  url: https://www.carwow.co.uk/about-us
+- type: Careers
+  url: https://www.carwow.co.uk/jobs
+- type: Partners
+  url: https://www.carwow.co.uk/partners/partner-with-carwow
+- type: Support
+  url: https://www.carwow.co.uk/contact-us
+- type: PrivacyPolicy
+  url: https://www.carwow.co.uk/privacy-policy
+- type: TermsOfService
+  url: https://www.carwow.co.uk/terms-and-conditions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
